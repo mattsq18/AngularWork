@@ -1,0 +1,57 @@
+
+
+code 
+{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+    monospace;
+}
+
+.container 
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+section 
+{
+  display: -webkit-flex;
+  display: flex;
+  flex: 1 1 auto;  
+}
+
+article 
+{
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 4;
+  background-color: blanchedalmond;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article p
+{
+  padding-left: 64px;
+  padding-right: 64px;
+  text-align: center;
+}
+.head 
+{
+  background-color: rgb(220, 198, 166);
+}
+.nav
+{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: rgb(183, 156, 156);
+  padding: 20px;
+}
+
+
+.footer {
+  background-color: rgb(238, 197, 197);
+}
