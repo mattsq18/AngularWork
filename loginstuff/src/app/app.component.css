@@ -1,0 +1,46 @@
+
+
+.form-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  
+}
+.button
+{
+    align-items: flex-end;
+    background-color: blanchedalmond;
+
+    padding: 10px;
+}
+.form
+{
+  width: 400px;
+  box-shadow: rgb(0 0 0 / 18%) 1px 1px 8px;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: url(../assets/img/grass.jpg);
+  
+}
+
+.labels
+{
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+}
+
+.title
+{
+    color:blue;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.has-error
+{
+  color:brown;
+}
